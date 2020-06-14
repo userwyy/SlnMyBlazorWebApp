@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyBlazorWebApp.Common\MyBlazorWebApp.Common.csproj" />
+    <ProjectReference Include="..\MyBlazorWebApp.Dal\MyBlazorWebApp.Dal.csproj" />
+    <ProjectReference Include="..\MyBlazorWebApp.Model\MyBlazorWebApp.Model.csproj" />
+    <ProjectReference Include="..\MyBlazorWebApp.Services\MyBlazorWebApp.Services.csproj" />
+  </ItemGroup>
+
+</Project>
